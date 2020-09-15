@@ -1,0 +1,1742 @@
+[
+	{
+		"entitled": "Y a-t-il beaucoup de choses que vous rêvez de faire ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 1
+					},
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					},
+					{
+						"nature": "malpoli",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Êtes-vous quelqu'un d'enjoué ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					},
+					{
+						"nature": "naif",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 1
+					},
+					{
+						"nature": "malpoli",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Êtes-vous souvent en retard ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "naif",
+						"gain": 1
+					},
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					},
+					{
+						"nature": "presse",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Accordez-vous énormément d'importance à vos passions ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 1
+					},
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Êtes-vous capable de remercier quelqu'un avec sincérité ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 1
+					},
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 1
+					},
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Rêvez-vous parfois d'une vie paisible et sans rebondissements ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 1
+					},
+					{
+						"nature": "naif",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous arrive-t-il de vous endormir n'importe où ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 1
+					},
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Cela vous embête-t-il de quitter la salle de classe en dernier en fin de journée ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 2
+					},
+					{
+						"nature": "timide",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 3
+					},
+					{
+						"nature": "relax",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Aimez-vous faire des farces ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 1
+					},
+					{
+						"nature": "malpoli",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Avez-vous tendance à imaginer des choses pour vous amuser ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Bâillez-vous souvent ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					},
+					{
+						"nature": "relax",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 1
+					},
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous reproche-t-on souvent d'avoir des réactions puériles ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 1
+					},
+					{
+						"nature": "relax",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous dit-on souvent de faire attention à ce que vous dites ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 1
+					},
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					},
+					{
+						"nature": "malpoli",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous sentez-vous triste dans il n'y a personne avec vous ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 1
+					},
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 1
+					},
+					{
+						"nature": "solo",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Avez-vous l'impression d'avoir ralenti le rythme dernièrement ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 1
+					},
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Aimez-vous vous battre ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 1
+					},
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					},
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous considérez-vous parfois comme quelqu'un d'ennuyeux et de timoré ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					},
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous arrive-t-il de perdre toute motivation ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Avez-vous tendance à rire souvent ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 1
+					},
+					{
+						"nature": "naif",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous considérez-vous comme quelqu'un de cool ?",
+		"replys": [
+			{
+				"entitled": "Absolument.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Avez-vous déjà tendu un piège à quelqu'un ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					},
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Avez-vous tendance à imaginer des choses pour vous amuser ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Aimez-vous les festivals ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 1
+					},
+					{
+						"nature": "malpoli",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "En vacances, vous préférez…",
+		"replys": [
+			{
+				"entitled": "La solitude.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 1
+					},
+					{
+						"nature": "presse",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Etre en groupe.",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 1
+					},
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "On dit que vous êtes quelqu'un d'insolite. Comment le prenez-vous ?",
+		"replys": [
+			{
+				"entitled": "Comme un compliment !",
+				"value": [
+					{
+						"nature": "naif",
+						"gain": 1
+					},
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Mal...",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 1
+					},
+					{
+						"nature": "presse",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous entendez un cri de l'autre côté de la porte. Comment réagissez-vous ?",
+		"replys": [
+			{
+				"entitled": "Je cours ouvrir la porte.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 2
+					},
+					{
+						"nature": "hardi",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Je crie aussi.",
+				"value": [
+					{
+						"nature": "naif",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Quand vous allez vous coucher, laissez-vous la lumière allumée ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 2
+					},
+					{
+						"nature": "timide",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous ne vous laissez pas décourager par les difficultés. Vrai ou faux ?",
+		"replys": [
+			{
+				"entitled": "Vrai.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 2
+					},
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Faux.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					},
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "On vous donne le choix entre deux cadeaux. Lequel choisissez-vous ?",
+		"replys": [
+			{
+				"entitled": "Le gros.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					},
+					{
+						"nature": "naif",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Le petit.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 1
+					},
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous décidez de faire du saut à l'élastique pour la première fois. Par précaution, vous faites d'abord un test avec une poupée… Mais l'élastique lâche ! Sautez-vous malgré tout ?",
+		"replys": [
+			{
+				"entitled": "Oui.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 3
+					},
+					{
+						"nature": "malin",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Non.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					},
+					{
+						"nature": "relax",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous lâchez un pet dans votre chambre. Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "J'ouvre vite la fenêtre.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					},
+					{
+						"nature": "presse",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Je renifle pour vous ce que ça sent.",
+				"value": [
+					{
+						"nature": "naif",
+						"gain": 2
+					},
+					{
+						"nature": "relax",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Avec votre main droite, attrapez un doigt de votre main gauche. De quel doigt s'agit-il ?",
+		"replys": [
+			{
+				"entitled": "Le pouce.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "L'index.",
+				"value": [
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Le majeur.",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "L'annulaire.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "L'auriculaire.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Un voyou s'en prend à quelqu'un dans une rue animée du centre-ville ! Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "J'interviens sans hésiter.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 3
+					}
+				]
+			},
+			{
+				"entitled": "J'ai peur, mais j'interviens.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 2
+					},
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "J'appelle la police.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 1
+					},
+					{
+						"nature": "relax",
+						"gain": 1
+					},
+					{
+						"nature": "timide",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "La peur me paralyse.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Une personne vous plaît bien, mais impossible de l'aborder. Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je lui déclare ma flamme.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 3
+					},
+					{
+						"nature": "hardi",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "J'essaie de mettre mes qualités en avant.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je lui joue un tour.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Je l'admire de loin.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Un inconnu s'adresse à vous dans une langue étrangère. Vous ne comprenez absolument rien à ce qu'il dit. Comment réagissez-vous ?",
+		"replys": [
+			{
+				"entitled": "Vous répondez : « Ha ha ! Tout à fait ! »",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 3
+					}
+				]
+			},
+			{
+				"entitled": "Vous lui demandez de répéter.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Vous partez en courant, vite et loin.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Une main sort des toilettes ! Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je m'enfuis en hurlant.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je referme la lunette sans dire un mot.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					},
+					{
+						"nature": "hardi",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Je la serre.",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 2
+					},
+					{
+						"nature": "malin",
+						"gain": 1
+					},
+					{
+						"nature": "naif",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Un ami vous rapporte un objet que vous aviez oublié. Vous le remerciez…",
+		"replys": [
+			{
+				"entitled": "Normalement.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "blaguant.",
+				"value": [
+					{
+						"nature": "naif",
+						"gain": 1
+					},
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Avec désinvolture.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous avez un contrôle à préparer. Comment vous y prenez-vous ?",
+		"replys": [
+			{
+				"entitled": "Je révise à fond.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je m'y mets à la dernière minute.",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je m'amuse au lieu de réviser.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Oseriez-vous entrer dans une maison hantée ?",
+		"replys": [
+			{
+				"entitled": "Sans aucun problème !",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 3
+					}
+				]
+			},
+			{
+				"entitled": "Euh… non…",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Oui, avec quelqu'un.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Aimez-vous les mauvais jeux de mots ?",
+		"replys": [
+			{
+				"entitled": "J'adore ça !",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 1
+					},
+					{
+						"nature": "naif",
+						"gain": 3
+					}
+				]
+			},
+			{
+				"entitled": "Parfois, oui.",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Pitié, tout mais pas ça.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Comment répondez-vous à un e-mail ?",
+		"replys": [
+			{
+				"entitled": "Je réponds immédiatement.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 1
+					},
+					{
+						"nature": "presse",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Parfois je réponds, parfois non.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je ne réponds pas, c'est trop fatigant.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous êtes à la plage et le temps est superbe. Comment vous sentez-vous ?",
+		"replys": [
+			{
+				"entitled": "Super bien !",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Bien, je me repose...",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "J'ai envie de rentrer !",
+				"value": [
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "C'est le week-end, mais personne ne veut jouer avec vous… Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je pars en excursion.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Je paresse.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 1
+					},
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je boude dans un coin.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 3
+					},
+					{
+						"nature": "timide",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Les vacances d'été commencent ! Où aimeriez-vous aller ?",
+		"replys": [
+			{
+				"entitled": "À la plage !",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "En thalasso.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Ça m'est égal.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "La route se divise en deux chemins. On vous dit que celui de droite mène à un trésor. Quel chemin prenez-vous ?",
+		"replys": [
+			{
+				"entitled": "Celui de droite, sans hésiter !",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "C'est un piège ! Je vais à gauche.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je suis mon instinct.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous devez mettre de l'eau dans un seau. Vous le remplissez...",
+		"replys": [
+			{
+				"entitled": "À ras bord.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "À moitié.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Un peu.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous trouvez un portefeuille dans la rue. Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je le dépose au commissariat.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je me réjouis !",
+				"value": [
+					{
+						"nature": "naif",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je vérifie qu'il n'y a personne autour…",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "On vous enferme par erreur dans une pièce plongée dans le noir ! Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "J'enfonce la porte.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je pleure.",
+				"value": [
+					{
+						"nature": "solo",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "J'en profite pour faire un peu de ménage.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous découvrez un coffre au trésor ! Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je l'ouvre immédiatement !",
+				"value": [
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Rien... c'est un piège.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Rien, il est sûrement vide...",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous recevez un cadeau ! Mais vous ignorez ce qu'il y a dedans. Cela pique votre curiosité…",
+		"replys": [
+			{
+				"entitled": "Je l'ouvre sur-le-champ.",
+				"value": [
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je l'ouvre plus tard.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je demande à quelqu'un de me l'ouvrir.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Vous gagnez à la loterie ! Youpi ! Que faites-vous de l'argent ?",
+		"replys": [
+			{
+				"entitled": "Je le dépense.",
+				"value": [
+					{
+						"nature": "jovial",
+						"gain": 2
+					},
+					{
+						"nature": "presse",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Je le mets de côté.",
+				"value": [
+					{
+						"nature": "calme",
+						"gain": 1
+					},
+					{
+						"nature": "hardi",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "J'en fais don.",
+				"value": [
+					{
+						"nature": "bizarre",
+						"gain": 2
+					},
+					{
+						"nature": "brave",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Un chef d'État se tient devant vous. Comment lui parlez-vous ?",
+		"replys": [
+			{
+				"entitled": "calmement.",
+				"value": [
+					{
+						"nature": "hardi",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Nerveusement.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Comme à un ami.",
+				"value": [
+					{
+						"nature": "malpoli",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "L'ami à qui vous aviez donné rendez-vous est en retard. Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je m'énerve.",
+				"value": [
+					{
+						"nature": "docile",
+						"gain": 1
+					},
+					{
+						"nature": "presse",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "J'attends.",
+				"value": [
+					{
+						"nature": "relax",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "En colère, je pars.",
+				"value": [
+					{
+						"nature": "presse",
+						"gain": 3
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Un importun embête votre amie. Que faites-vous ?",
+		"replys": [
+			{
+				"entitled": "Je lui demande d'arrêter, sinon...",
+				"value": [
+					{
+						"nature": "brave",
+						"gain": 3
+					}
+				]
+			},
+			{
+				"entitled": "Je le menace de loin.",
+				"value": [
+					{
+						"nature": "timide",
+						"gain": 2
+					}
+				]
+			},
+			{
+				"entitled": "Je lui joue un mauvais tour dans son dos.",
+				"value": [
+					{
+						"nature": "malin",
+						"gain": 2
+					}
+				]
+			}
+		]
+	},
+	{
+		"entitled": "Une dernière question. Êtes vous un garçon ou un fille ?",
+		"replys": [
+			{
+				"entitled": "Un garçon.",
+				"value": [
+					{
+						"nature": "sex",
+						"gain": 1
+					}
+				]
+			},
+			{
+				"entitled": "Une fille.",
+				"value": [
+					{
+						"nature": "sex",
+						"gain": -1
+					}
+				]
+			}
+		]
+	}
+]

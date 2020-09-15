@@ -1,0 +1,14 @@
+{
+	"token": "your toekn here",
+	"version": "0.1.0",
+	"stable": true,
+	"name": "OverStable [nom temporaire]",
+	"creator": {
+		"full_name": "Jolan RIALLOT"
+	},
+	"prefix": {
+		"default": {
+			"main": "\\^\\^"
+		}
+	}
+}

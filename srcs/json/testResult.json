@@ -1,0 +1,90 @@
+{
+	"1": {
+		"hardi": [
+			"Bulbizarre"
+		],
+		"docile": [
+			"Salameche"
+		],
+		"jovial": [
+			"Carapuce"
+		],
+		"malin": [
+			"Pikachu",
+			"Miaouss"
+		],
+		"relax": [
+			"Psykokwak"
+		],
+		"brave": [
+			"Machoc"
+		],
+		"solo": [
+			"Osselait"
+		],
+		"presse": [
+			"Évoli",
+			"Poussifeu"
+		],
+		"bizarre": [
+			"Germignon"
+		],
+		"timide": [
+			"Héricendre"
+		],
+		"naif": [
+			"Kaiminus",
+			"Skitty"
+		],
+		"malpoli": [
+			"Arcko"
+		],
+		"calme": [
+			"Gobou"
+		]
+	},
+	"-1": {
+		"hardi": [
+			"Pikachu"
+		],
+		"docile": [
+			"Germignon"
+		],
+		"jovial": [
+			"Kaiminus"
+		],
+		"malin": [
+			"Osselait"
+		],
+		"relax": [
+			"Carapuce"
+		],
+		"brave": [
+			"Bulbizarre",
+			"Machoc"
+		],
+		"solo": [
+			"Miaouss",
+			"Psykokwak"
+		],
+		"presse": [
+			"Skitty"
+		],
+		"bizarre": [
+			"Arcko"
+		],
+		"timide": [
+			"Héricendre",
+			"Gobou"
+		],
+		"naif": [
+			"Évoli"
+		],
+		"malpoli": [
+			"Poussifeu"
+		],
+		"calme": [
+			"Salameche"
+		]
+	}
+}
