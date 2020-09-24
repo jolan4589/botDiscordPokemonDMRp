@@ -375,7 +375,7 @@
 		]
 	},
 	{
-		"entitled": "Vous sentez-vous triste dans il n'y a personne avec vous ?",
+		"entitled": "Vous sentez-vous triste qand il n'y a personne avec vous ?",
 		"replys": [
 			{
 				"entitled": "Oui.",
@@ -866,7 +866,7 @@
 				]
 			},
 			{
-				"entitled": "Je renifle pour vous ce que ça sent.",
+				"entitled": "Je renifle pour voir ce que ça sent.",
 				"value": [
 					{
 						"nature": "naif",

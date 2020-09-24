@@ -2,34 +2,35 @@ class Pokemon {
 	constructor(name, pokemon) {
 		this.name = name
 		this.pokemon = pokemon
-		this.capa = [["Charge", 0, 0], false, false, false]
+		/** move : [string name, int powe_up, int pp_up] */
+		this.moves = []
 		this.level = 5
-		this.xp = 10 
-		this.xpmax = this.xp + this.level
 	}
 
 	_reset_poke() {
-		this.xp = 0
-		this.xpmax = 1
 		this.level = 1
-		this.capa = [["Charge", 0, 0], false, false, false]
+		this.moves = []
 	}
 	_rename(new_name) {
 		this.name = new_name
 	}
-	gain_xp(xpadd) {
-		this.xp += xpadd
-		while (this.xp >= this.xpmax) {
-			this.level++
-			this.xpmax += this.level
-		}
+	_set_level(lv) {
+		this.level = lv
 	}
-	set_level(lv) {
-		this._reset_poke()
-		let i = 0
-		while (++i < lv) {
-			this.gain_xp(i)
+	_set_move(move, index = -1)
+	{
+		
+		if (index > 4)
+			return(false)
+		if (this.moves.length < 4 && this.moves.length < index)
+			index = this.moves.length
+		if (index > -1) {
+			this.moves[index] = move
 		}
+		else {
+			this.moves.push(move)
+		}
+		return (true)
 	}
 }
 

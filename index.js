@@ -1,10 +1,13 @@
-/*Object.defineProperty(Array.prototype, 'flat', {
-    value: function(depth = 1) {
-      return this.reduce(function (flat, toFlatten) {
-        return flat.concat((Array.isArray(toFlatten) && (depth>1)) ? toFlatten.flat(depth-1) : toFlatten);
-      }, []);
-    }
-});*/
+/**
+ * GLOBAL
+ * TODO : Afficher un pokemon (^^inf)
+ * TODO : Afficher les capacités détaillés (^^capa)
+ * TODO : Utiliser un objet (^^user-item)
+ * TODO : Supprimer un objet (^^delete-item)
+ * TODO : Gérer les capaciter
+ * TODO : Commenter correctement tout le proejt.
+ * TODO : Gerer les GM.
+ */
 
 /* Projet root, usable everywhere */
 global.ROOT = require('path').resolve(__dirname)
@@ -16,9 +19,9 @@ const Bot_inf = require('./srcs/json/botInf.json')
 const Poke_class = require('./srcs/js/class.js')
 const Utils = require('./srcs/js/utils.js')
 const PersonnalityTest = require('./srcs/js/personnalityTest.js')
-
+const PokePlayer = require('./srcs/js/pokePlayer.js')
 const Ess = require('esserializer')
-const Personnality = require('./srcs/js/personnalityClass')
+
 
 const Bot = new Discord.Client()
 
@@ -29,22 +32,33 @@ Bot.on('ready', function () {
 
 // Message lsitener
 Bot.on('message', msg => {
-	let DifferentPrefix = Object.keys(Bot_inf.prefix).includes(msg.guild.id)
+	let util_temp
+	let prefix = Bot_inf.prefix[Object.keys(Bot_inf.prefix).includes(msg.guild.id) ? msg.guild.id : "default"]
 	if (!msg.author.bot) {
-		if (RegExp(`^${Bot_inf.prefix[DifferentPrefix ? msg.guild.id : "default"].main}`).test(msg.content)) {
-			if (RegExp('start-test'))
+		/** General parser **/
+		if (RegExp(`^${prefix.main}`).test(msg.content)) {
+			/** Test part **/
+			if (RegExp('start(-| )?test', 'i').test(msg.content)) {
 				if (!PersonnalityTest.startTest(msg))
 					console.log("Error starting test!")
+			}
+
+			/** Player pokemon part **/
+			else if (RegExp('inv', 'i').test(msg.content))
+				msg.channel.send(PokePlayer.showInv(msg.member, msg.mentions.users.keyArray().length ? msg.mentions.users.keyArray() :  [msg.author.id]))
+			else if (RegExp('give(-| )?item', 'i').test(msg.content)) 
+				msg.channel.send(PokePlayer.giveItem(msg.member, msg.content.slice(msg.content.indexOf('give')), msg.mentions.users.keyArray()))
+			else if (RegExp('delete(-| )?poke', 'i').test(msg.content)) {
+				msg.channel.send(PokePlayer.deletePoke(msg.member, msg.mentions.users.keyArray()))
+			}
 		}
 	}
-
-
-	if (msg.content == "Bonjour !" && !msg.author.bot)
-		msg.channel.send("Bonjour !")
 	if (RegExp("^test").test(msg.content)) {
-		let temp = require('./srcs/json/testResult.json')
-		let tmp = require('./srcs/json/personnalityTestSave.json')
-		console.log(PersonnalityTest.testResult(require('./srcs/json/personnalityTestSave.json')["697708360283455499"]["227765280858701824"]))
+		/*let tmp = require('./srcs/json/botInf.json')
+		Utils.save(tmp, `${ROOT}/srcs/json/botInf.json`)*/
+	//	let tmp = msg.content.substring(msg.content.match(RegExp(`${prefix.main}.*test.*<.*>`, 'gi')).toString().length)
+		//console.log(tmp)
+		//\\^\\^
 	}
 })
 
@@ -56,17 +70,20 @@ Bot.on("messageReactionAdd", async (reaction, user) => {
 		} catch (error) {
 			console.log('Something went wrong when fetching the message: ', error);
 			// Return as `reaction.message.author` may be undefined/null
-			return;	 
+			return;
 		}
 	}
 
 	if (!user.bot) {
-		if (reaction._emoji.name == '👎' && RegExp(`${user.id}`).test(reaction.message.content))
-			reaction.message.delete(), PersonnalityTest.deleteTest(user.id, reaction.message.guild.id)
-		else if (reaction._emoji.name == '👍' && RegExp(`${user.id}`).test(reaction.message.content))
-			PersonnalityTest.editQuestion(reaction.message)
-		else if (RegExp(reaction._emoji.name).test('1⃣ 2⃣ 3⃣ 4⃣ 5⃣')) /*{}⃣ */
-			PersonnalityTest.editQuestion(reaction.message, reaction._emoji.name.match(/[1-5]/).toString())
+		/** Personnality test parser **/
+		if (RegExp('test de personnalite', 'i').test(reaction.message.embeds[0].author.name)) {
+			if (reaction._emoji.name == '👎' && RegExp(`${user.id}`).test(reaction.message.content))
+				reaction.message.delete(), PersonnalityTest.deleteTest(user.id, reaction.message.guild.id)
+			else if (reaction._emoji.name == '👍' && RegExp(`${user.id}`).test(reaction.message.content))
+				PersonnalityTest.editQuestion(reaction.message)
+			else if (RegExp(reaction._emoji.name).test('1⃣ 2⃣ 3⃣ 4⃣ 5⃣')) /*{}⃣ */
+				PersonnalityTest.editQuestion(reaction.message, reaction._emoji.name.match(/[1-5]/).toString())
+		}
 		/*	message.reactions.removeAll(),
 			for (const react in ["one","two","three","four","five"].slice(0, reaction.message.embed.fields.length)) {
 
@@ -115,7 +132,7 @@ Bot.login(Bot_inf.token)
 
 
 /* Code for obtain all types in json after serialize
-
+	
 	let Vol = new Poke_class.Type("Vol",
 		["Electrik", "Glace", "Roche"],
 		["Acier", "Dragon", "Eau", "Fee", "Feu", "Normal", "Poison", "Psy", "Spectre", "Tenebres", "Vol"],

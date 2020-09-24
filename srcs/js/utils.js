@@ -11,6 +11,20 @@ exports.randomInt = function (max) {
 }
 
 /**
+ * function :
+ *	return sum from 1 to n excluded.
+ * @param {int} n	: range
+ *
+ * @return {sum}	: int result
+ */
+exports.sum1N = function (n) {
+	let sum = 0
+	for (let i = 1; i < n; i++)
+		sum += i
+	return (sum)
+}
+
+/**
  * Process :
  *	This process browse the object for every keyword in path and save add the data at the end.
  * @param {object} obj 
@@ -45,4 +59,13 @@ exports.save = function (data, file, ...path_in_file)
 		return (!err)
 	})
 	return (true)
+}
+
+exports.isGm = function (member) {
+	let Gm = require('../json/gmList.json')
+	if (member.hasPermission("ADMINISTRATOR"))
+		return true
+	if (Gm = Gm[member.guild.id] && Gm[member.guild.id].find(elem => elem == member.id))
+		return (true)
+	return false
 }
