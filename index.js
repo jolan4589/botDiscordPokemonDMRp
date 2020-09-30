@@ -2,11 +2,12 @@
  * GLOBAL
  * TODO : Afficher un pokemon (^^inf)
  * TODO : Afficher les capacités détaillés (^^capa)
- * TODO : Utiliser un objet (^^user-item)
- * TODO : Supprimer un objet (^^delete-item)
  * TODO : Gérer les capaciter
- * TODO : Commenter correctement tout le proejt.
- * TODO : Gerer les GM.
+ * TODO : Commenter correctement tout le projet.
+ * TODO : Jardin shaymin.
+ * TODO : Dojo tranchodon.
+ * TODO : Arrêne Felinfernaux.
+ * TODO : Item list, skills list, pokemon grow up base list.
  */
 
 /* Projet root, usable everywhere */
@@ -46,19 +47,24 @@ Bot.on('message', msg => {
 			/** Player pokemon part **/
 			else if (RegExp('inv', 'i').test(msg.content))
 				msg.channel.send(PokePlayer.showInv(msg.member, msg.mentions.users.keyArray().length ? msg.mentions.users.keyArray() :  [msg.author.id]))
-			else if (RegExp('give(-| )?item', 'i').test(msg.content)) 
-				msg.channel.send(PokePlayer.giveItem(msg.member, msg.content.slice(msg.content.indexOf('give')), msg.mentions.users.keyArray()))
-			else if (RegExp('delete(-| )?poke', 'i').test(msg.content)) {
+				//Items
+			else if (RegExp('give[ \-\_]?item', 'i').test(msg.content) && Utils.isGm(msg.member))
+				msg.channel.send(PokePlayer.itemInteraction({reg: "give[ \-\_]?item", func: "add_item"}, msg.member, msg.content.slice(msg.content.indexOf('give')), msg.mentions.users.keyArray()))
+			else if (RegExp('use[ \-\_]?item', 'i').test(msg.content))
+				msg.channel.send(PokePlayer.itemInteraction({reg: "use[ \-\_]?item", func: "drop_item"}, msg.member, msg.content.slice(msg.content.indexOf('use')), msg.mentions.users.keyArray()))
+			else if (RegExp('delete[ \-\_]?item', 'i').test(msg.content))
+				msg.channel.send(PokePlayer.itemInteraction({reg: "delete[ \-\_]?item", func: "delete_item"}, msg.member, msg.content.slice(msg.content.indexOf('delete')), msg.mentions.users.keyArray()))
+				// Capacity
+			else if (RegExp('set[ \-\_]?capa', 'i').test(msg.content) && Utils.isGm(msg.member))
+				msg.channel.send(PokePlayer.itemInteraction({reg: "set[ \-\_]?capa", func: "_set_move"}, msg.member, msg.content.slice(msg.content.indexOf('set')), msg.mentions.users.keyArray()))
+			else if (RegExp('delete[ \-\_]?poke', 'i').test(msg.content)) {
 				msg.channel.send(PokePlayer.deletePoke(msg.member, msg.mentions.users.keyArray()))
 			}
 		}
 	}
 	if (RegExp("^test").test(msg.content)) {
-		/*let tmp = require('./srcs/json/botInf.json')
-		Utils.save(tmp, `${ROOT}/srcs/json/botInf.json`)*/
-	//	let tmp = msg.content.substring(msg.content.match(RegExp(`${prefix.main}.*test.*<.*>`, 'gi')).toString().length)
-		//console.log(tmp)
-		//\\^\\^
+		//msg.channel.send(PokePlayer.itemInteraction({reg: "give[ \-\_]?item", func: "add_item"}, msg.member, msg.content.slice(msg.content.indexOf('give')), msg.mentions.users.keyArray()))
+		msg.channel.send(PokePlayer.itemInteraction({reg: "use[ \-\_]?item", func: "drop_item"}, msg.member, msg.content.slice(msg.content.indexOf('use')), msg.mentions.users.keyArray()))
 	}
 })
 

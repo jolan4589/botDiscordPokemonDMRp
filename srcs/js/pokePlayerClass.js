@@ -4,7 +4,8 @@ const Pokemon = require('./pokemonClass.js')
 /** Class repreesenting a player. */
 class PokePlayer extends Pokemon {
 	/**
-	 * 
+	 * Constructor
+	 *	Create a PokePlayer.
 	 * @param {String} name 	: Unique name.
 	 * @param {String} pokemon 	: Pokemon family name.
 	 * @param {String} owner 	: Owner personnal id.
@@ -70,12 +71,13 @@ class PokePlayer extends Pokemon {
 	 * @param {int} quantity 	: Number of item to add.
 	 */
 	add_item(item, quantity) {
-		let tmp = this.inventory.findIndex(elem => elem[0] == item)
+		let index = this.inventory.findIndex(elem => elem[0] == item)
 
-		if (tmp > -1)
-			this.inventory[tmp][1] = parseInt(this.inventory[tmp][1]) + parseInt(quantity)
+		if (index > -1)
+			this.inventory[index][1] = parseInt(this.inventory[index][1]) + parseInt(quantity)
 		else
 			this.inventory.push([item, quantity])
+		return (true)
 	}
 	/**
 	 * Process
@@ -86,8 +88,7 @@ class PokePlayer extends Pokemon {
 	 * @return {boolean}		: Have this process well worked ?
 	 */
 	drop_item(item, quantity) {
-		let index = this.inventory.findIndex(elem => Array.isArray(elem) ? elem[0] == item : false)
-
+		let index = this.inventory.findIndex(elem => elem[0] == item)
 		if (index >= 0)
 			if (quantity >= this.inventory[index][1])
 				this.inventory.splice(index, 1)
@@ -104,7 +105,7 @@ class PokePlayer extends Pokemon {
 	 *	 
 	 * @return {boolean}		: Have this process well worked ?
 	 */
-	delet_item(item) {
+	delete_item(item, ...NOONECARE) {
 		return (this.drop_item(item, Infinity))
 	}
 }

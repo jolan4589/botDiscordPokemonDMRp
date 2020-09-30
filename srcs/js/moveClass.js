@@ -2,7 +2,7 @@
 class Move {
 	/**
 	 * Constructor
-	 *	Create a Move
+	 *	Create a Move.
 	 * @param {String} name 		: move name
 	 * @param {String} type 		: move type
 	 * @param {String} category 	: caregory

@@ -1,7 +1,8 @@
 /** Class representing a personnality test instance. */
 class Personnality {
 	/**
-	 * 
+	 * Constructor
+	 *	Create Personnality.
 	 * @param {String} id_player 	: Player passing test id.
 	 * @param {String} id_server 	: Server where this test's passed.
 	 */

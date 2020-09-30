@@ -1,7 +1,8 @@
 /** Class representing a pokemon. */
 class Pokemon {
 	/**
-	 * 
+	 * Constructor
+	 *	Create a Pokemon.
 	 * @param {String} name 	: Unique name.
 	 * @param {String} pokemon 	: Pokemon family name.
 	 */
